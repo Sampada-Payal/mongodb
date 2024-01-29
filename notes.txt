@@ -1,0 +1,25 @@
+commands :
+npm init
+npm i express
+npm i nodemon --save dev
+npm i mongoose
+
+for running the  server :
+npm run dev
+
+.env file (.gitignore) as it contains sensitive information.
+whenever u make any changes in .env file always restart the server/your application
+
+mongodb >> deployment >> database >> connect >> select your driver and version >>
+npm install mongodb
+mongodb+srv://username:<password>@cluster0.nnsqctn.mongodb.net/?retryWrites=true&w=majority
+
+npm i dotenv (install this as w/o pass and env npm wont work.)
+
+
+Architecture used : MVC
+M = model (which model is for which particular view or controller. orr "it tells structure of MongoDb collections")
+V = view (UI)
+C = controller (brain/ logic of a router)
+
+
