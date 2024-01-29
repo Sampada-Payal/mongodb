@@ -1,5 +1,5 @@
-const { BookModel, UserModel } = require("../models");
-const IssuedBook = require("../dtos/book-dto")
+const { BookModel, UserModel } = require("D:\\FSWDT\\mongodb\\models");
+const IssuedBook = require("D:\\FSWDT\\mongodb\\dtos\\book-sto.js")
 
 // (req, res)=>{
 //     res.status(200).json({success: true, data:books})
@@ -93,4 +93,4 @@ exports.updateBookById = async (req, res) => {
 
 }
 
-// module.exports = {getAllBooks, getSingleBookById}
+//module.exports = {getAllBooks, getSingleBookById}

@@ -1,5 +1,5 @@
-const { BookModel, UserModel } = require("../models");
-const userModel = require("../models/user-model");
+const { BookModel, UserModel } = require("D:\\FSWDT\\mongodb\\models\\index.js");
+const userModel = require("D:\\FSWDT\\mongodb\\models\\user-model.js");
 
 exports.getAllUsers = async (req, res) => {
     const users = await UserModel.find();
